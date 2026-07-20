@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>OnePlus UI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="F3">
+    <div onclick="go('home')">Home</div>
+    <div onclick="go('products')">Products</div>
+    <div onclick="go('booking')">Bookings</div>
+    <div onclick="go('explore')">Explore</div>
+</div>
+
+<div class="First" id="home">
+    <div class="F1">
+        <h1>Never Settle</h1>
+    </div>
+    <div class="F2">
+        <img src="D:\My Projects\Oneplus website\Image\Logo.jpg">
+    </div>
+</div>
+
+<div class="Third" id="products">
+
+    <div class="product-card">
+        <img src="D:\My Projects\Oneplus website\Image\Oneplus 12.jpg">
+        <h3>OnePlus 12</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="D:\My Projects\Oneplus website\Image\Oneplus11.jpg">
+        <h3>OnePlus 11</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="D:\My Projects\Oneplus website\Image\Oneplus_nord 3.jpg">
+        <h3>Nord 3 5G</h3>
+    </div>
+
+    <div class="product-card">
+        <img src="D:\My Projects\Oneplus website\Image\Oneplus nord CE 3.jpg">
+        <h3>Nord CE 3</h3>
+    </div>
+
+</div>
+
+<div class="Booking" id="booking">
+
+    <div class="booking-container">
+
+        <h1>Book Your OnePlus Device 📱</h1>
+
+        <div class="booking-form">
+
+            <input type="text" placeholder="Full Name">
+            <input type="tel" placeholder="Phone Number">
+            <input type="email" placeholder="Email Address">
+
+            <select>
+                <option>Select Device</option>
+                <option>OnePlus 12</option>
+                <option>OnePlus 11</option>
+                <option>Nord 3</option>
+                <option>Nord CE 3</option>
+            </select>
+
+            <select>
+                <option>Select Color</option>
+                <option>Black</option>
+                <option>Green</option>
+                <option>Blue</option>
+            </select>
+
+            <input type="date">
+
+            <button onclick="submitForm()">Confirm Booking 🚀</button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="Explore" id="explore">
+
+    <h1>Explore Devices 🚀</h1>
+
+    <div class="explore-container">
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\Oneplus11.jpg">
+            <h2>OnePlus 11</h2>
+            <a href="https://www.oneplus.in/11/specs" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\Oneplus 12.jpg">
+            <h2>OnePlus 12</h2>
+            <a href="https://www.oneplus.in/oneplus-12" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="d:\My Projects\Oneplus website\Image\OnePlus 13.jpg">
+            <h2>OnePlus 13</h2>
+            <a href="https://www.oneplus.in/oneplus-13" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\Oneplus_nord 3.jpg">
+            <h2>Nord 3 5G</h2>
+            <a href="https://www.oneplus.in/nord-3-5g/specs" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\Oneplus nord CE 3.jpg">
+            <h2>Nord CE 3</h2>
+            <a href="https://www.oneplus.in/nord-ce-3-5g/specs" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\OnePlus Nord CE4.jpg">
+            <h2>Nord CE 4</h2>
+            <a href="https://www.oneplus.in/oneplus-nord-ce4-5g" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\OnePlus Pad GO.jpg">
+            <h2>OnePlus Pad Go</h2>
+            <a href="https://www.oneplus.in/buy-oneplus-pad-go" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="d:\My Projects\Oneplus website\Image\OnePlus Pad 2.jpg">
+            <h2>OnePlus Pad 2</h2>
+            <a href="https://www.oneplus.in/buy-oneplus-pad-2" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\OnePlus Buds Pro.jpg">
+            <h2>OnePlus Buds Pro</h2>
+            <a href="https://www.oneplus.in/product/oneplus-buds-pro" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+        <div class="explore-card">
+            <img src="D:\My Projects\Oneplus website\Image\OnePlus Watch 2R.jpg">
+            <h2>OnePlus Watch</h2>
+            <a href="https://www.oneplus.in/oneplus-watch" target="_blank">
+                <button>Explore</button>
+            </a>
+        </div>
+
+    </div>
+
+</div>
